@@ -3,7 +3,12 @@ name = "sharkdown"
 version = "0.1.0"
 authors = ["Matthew Blode <m@blode.co>"]
 edition = "2018"
+description = "Sharkdown is a markdown-like compiler"
+homepage = "https://github.com/mblode/sharkdown"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+regex = "1"
+lazy_static = "1.4.0"
+clap = { version = "3.0.0-beta.2", features = ["yaml"] }

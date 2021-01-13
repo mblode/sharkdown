@@ -1,0 +1,14 @@
+name: sharkdown
+version: "1.0"
+author: Matthew Blode <m@blode.co>
+about: Sharkdown parser and compiler
+args:
+    - INPUT:
+        about: Sets the input file to use
+        required: true
+        index: 1
+    - OUTPUT:
+        about: Sets the output file to use
+        required: true
+        index: 2
+
