@@ -1,7 +1,7 @@
 <h1 align="center">Sharkdown</h1>
 <div align="center">
  <strong>
-   Markdown parser
+   Markdown parser written in Rust
  </strong>
 </div>
 
@@ -41,8 +41,4 @@
   </h3>
 </div>
 
-Tide is a minimal and pragmatic Rust web application framework built for
-rapid development. It comes with a robust set of features that make building
-async web applications and APIs easier and more fun.
-
-## Getting started
+A crate for parsing Markdown in Rust
