@@ -41,4 +41,4 @@
   </h3>
 </div>
 
-A crate for parsing Markdown in Rust
+Stark is a Markdown parser written in Rust. It comes with a simple command-line tool, useful for rendering to HTML, and is also designed to be easy to use from as a library.
