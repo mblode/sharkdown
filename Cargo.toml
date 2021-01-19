@@ -1,6 +1,6 @@
 [package]
 name = "sharkdown"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Matthew Blode <m@blode.co>"]
 edition = "2018"
 description = "Sharkdown is a markdown parser"
