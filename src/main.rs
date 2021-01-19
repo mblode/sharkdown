@@ -1,10 +1,10 @@
-use clap::{App, load_yaml};
+use clap::{load_yaml, App};
 
-mod parser;
 mod html;
+mod parser;
 
-pub use parser::Parser;
 pub use html::Html;
+pub use parser::Parser;
 
 fn main() {
     let yaml = load_yaml!("cli.yaml");
